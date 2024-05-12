@@ -8,9 +8,18 @@ This script automates the installation of essential software on various Linux di
 - Supports multiple Linux distributions including Alpine, Ubuntu, Debian, and CentOS.
 
 ## Usage
-1. Ensure you have the appropriate permissions to execute the script.
-2. Run the script with `./setup.sh`.
-3. Follow the on-screen instructions.
+1. Run the following Command
+ ```bash
+wget https://raw.githubusercontent.com/anishdevtech/Ertrix-vps-script/main/main.sh
+```
+and 
+```
+chmod +x main.sh
+```
+3. Run the script with
+```
+./main.sh
+```
 
 ## Supported Operating Systems
 - Alpine Linux
