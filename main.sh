@@ -2,7 +2,8 @@
 
 # Function to print colored logs
 print_log() {
-    echo -e "\e[1;32m$1\e[0m"
+ echo -e "\e[1;34mEtrixs-script | $1\e[0m"
+
 }
 
 # Check OS and install packages accordingly
